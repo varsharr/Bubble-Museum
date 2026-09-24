@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Bubble Museum</title>
+        <style>
+            *{
+                margin: 0;
+            }
+            h1{
+                padding-bottom: 10px;
+                padding-top: 10px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            body{
+                background-color:  rgb(4, 4, 28);;
+            }
+            .navbar{
+                background-color: rgb(7, 7, 22);
+            }
+            h1{
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: white;
+            }
+            nav{
+                text-align: center;
+                height: 90px;
+            }
+            nav a{
+                padding-left: 30px;
+                text-decoration: none;
+                color: white;
+                padding-top: 20px;
+            }
+            nav a:hover{color: orange;
+            text-decoration: underline orange;};
+            .hr{
+                color: orange;
+            }
+            .pd{
+                color: orange;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 15px;
+                padding-top: 80px;
+                margin-left: 40px;   
+            }
+            .pl{
+                color: white;
+                margin-left: 40px;
+                font-size: 50px;
+                margin-top: 0;
+            }
+            .pm{
+                color:rgb(172, 171, 171);
+                margin-left: 40px;
+                padding-top: 10px;
+            }
+            .planetcollection{
+                display: grid;
+                grid-template-columns: repeat(1,3fr);
+            }
+            .planetcard{
+                width: 380px;
+                height: 400px;
+                background-color:rgb(0, 0, 35);
+                margin-left: 40px;
+                margin-top: 20px;
+                border-top: 1px solid orange;
+                margin-bottom: 50px;
+            }
+            .img{
+                width: 150px;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+            .name{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 35px;
+                color: rgb(172, 171, 171);
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+            .nd{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 15px;
+                color: rgb(172, 171, 171);
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+            .planetcollection{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .v{
+                color: orange;
+                text-decoration: none;
+                margin-left: 20px;
+               padding-top: 30px;
+               font-family: 'Courier New', Courier, monospace;
+            }
+            .imge{
+                width: 150px;
+                height: 200px;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+       </style>
+    </head>
+<body>
+    <div class="navbar">
+        <nav>
+        <h1>Bubble Museum</h1>
+        <a href="space planet.html">Home</a>
+        <a href="planets collection.html">Planets Gallery</a>
+        <a href="mission timeliness.html">Mission Timelines</a>
+        <a href="astronut.html">Astronut Profiles</a>
+        <a href="contact page.html">Contact</a>
+        </nav>
+    </div>
+  
+    <div>
+        <p class="pd">THE COLLECTION</p>
+        <p class="pl">Planets Gallery</p>
+        <p class="pm">"We came all this way to explore the moon, and the most important thing is that we discovered the earth." — William Anders, Apollo 8 astronaut</p>
+    </div>
+
+    <div class="planetcollection">
+        <div  class="planetcard">
+          <img src="sat5.png" class="img">
+          <p class="name">SATURN</p>
+        <ul>
+           <li class="nd">Position: Sixth planet from the Sun.</li>
+           <li class="nd">Size: Second-largest planet in the solar system, about nine times wider than Earth.</li>
+           <li class="nd">Composition: A gas giant made mostly of hydrogen and helium, meaning it has no solid surface.</li>
+        </ul>
+        <a href="#" class="v">View Specimen →</a>
+        </div>
+
+        <div class="planetcard">
+           <img src="mer.png" class="img">
+           <p class="name">MERCURY</p>
+           <ul>
+              <li class="nd">Orbit Speed: It zips around the Sun at about 29 miles per second (47 km/s), making it the fastest planet in the solar system.</li>
+              <li class="nd">Day Length: A single rotation on its axis takes 59 Earth days, but a full solar day (sunrise to sunrise) takes 176 Earth days</li>
+           </ul>
+           <a href="#" class="v">View Specimen →</a>
+        </div>
+
+        <div class="planetcard">
+            <img src="venus.png" class="img">
+            <p class="name">VENUS</p>
+            <ul>
+                <li class="nd">Hottest Planet: Surface temperatures reach about 872°F (467°C), which is hot enough to melt lead. This happens because its thick atmosphere traps heat in a runaway greenhouse effect</li>
+            </ul>
+            <a href="#" class="v">View Specimen →</a>
+        </div>
+
+        <div class="planetcard">
+            <img src="jupiter.png" class="img">
+            <p class="name">JUPITER</p>
+            <ul>
+                <li class="nd">No Solid Surface: Jupiter is a gas giant. It is made mostly of hydrogen and helium gases, similar to the composition of a star.</li>
+                <li class="nd">Gas giant made mostly of hydrogen</li>
+            </ul>
+            <a href="#" class="v">View Specimen →</a>
+        </div>
+
+        <div class="planetcard">
+            <img src="earth.png" class="imge">
+            <p class="name">EARTH</p>
+            <ul>
+                <li class="nd">Not a perfect ball: Earth bulges at the equator because it spins. Scientists call this shape an oblate spheroid.</li>
+            </ul>
+            <a href="#" class="v">View Specimen →</a>
+        </div>
+        
+        <div class="planetcard">
+            <img src="uran.png" class="img">
+            <p class="name">URANUS</p>
+            <ul>
+                <li class="nd">Ice Giant: Classified as an ice giant, its interior is mostly a hot, dense fluid of icy materials—water, methane, and ammonia—above a small rocky core.</li>
+                <li class="nd">Mass & Density: Weighs about 14.5 times Earth and is the second least dense planet after Saturn</li>
+            </ul>
+            <a href="#" class="v">View Specimen →</a>
+        </div>
+    </div>
+</body>
+</html>
